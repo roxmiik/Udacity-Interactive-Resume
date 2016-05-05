@@ -74,7 +74,7 @@ var work = {
 	{
 		"employer": "Self-employed",
 		"title": "freelance Web Developer",
-		"location": "Renton, WA",
+		"location": "Seattle, WA",
 		"dates": "January 2015 - Present",
 		"description": "create websites using HTML5, CSS3, JavaScript, jQuery, Responsive Design and Git/GitHub."
 	}
@@ -259,6 +259,9 @@ function inName(name) {
 }
 
 $("#main").append(internationalizeButton);
+
+//Append the Google Map to the page
+$('#mapDiv').append(googleMap);
 
 
 /* $("#main").append("Roxana Carmen Kakarash"); */
